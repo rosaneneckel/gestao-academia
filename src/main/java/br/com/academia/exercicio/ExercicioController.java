@@ -10,5 +10,11 @@ public class ExercicioController {
         return "API de Exercícios da Rosane";
     }
 
+    @GetMapping("/exemplo")
+    public ExercicioDTO getExercicio(){
+        return new ExercicioDTO(1, "Sulpino", 3, 12);
+    }
+
+
 
 }
