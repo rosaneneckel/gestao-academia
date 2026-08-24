@@ -1,4 +1,4 @@
-package br.com.academia.exercicio;
+package br.com.academia.gestao.exercicio;
 
 public record ExercicioDTO(
         Integer id,

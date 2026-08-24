@@ -1,4 +1,4 @@
-package br.com.academia.exercicio;
+package br.com.academia.gestao.exercicio;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
