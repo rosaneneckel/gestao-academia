@@ -35,6 +35,7 @@ Certifique-se de ter instalado em sua máquina:
    cd gestao-academia
 ---
 2. **Configure o application.properties:**
+
    src/main/resources/application.properties 
 
    Nome da aplicação: spring.application.name=academia
@@ -50,14 +51,14 @@ Certifique-se de ter instalado em sua máquina:
 ---
 2. **Prints de Execução da API:**
 
-  **boas-vindas**
+  **boas-vindas (texto)**
   ![Boas Vindas](./src/main/java/br/com/academia/gestao/img/boas-vindas.PNG)
 
-  **exemplo**
+  **exemplo (objeto)**
 
-  ![Exemplo Exercício](./src/main/java/br/com/academia/gestao/img/exemplo.PNG)
+  ![Exemplo Exercício](src/main/java/br/com/academia/gestao/img/exem.PNG)
 
-  **lista-exercicios**
+  **lista-exercicios (lista)**
   ![Lista de Exercícios](./src/main/java/br/com/academia/gestao/img/lista-exercicios.PNG)
 
 
