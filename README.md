@@ -14,7 +14,6 @@ API REST desenvolvida em **Java 21** e **Spring Boot** para gerenciamento e list
 - **Spring Boot 4.1.1** - Framework para criação de microsserviços e APIs REST.
 - **Spring Web** - Cria APIs REST e aplicações web usando o MVC.
 - **Spring DevTools** - Recarrega a aplicação automaticamente ao alterar o código.
-- **Lombok** - Reduz código repetitivo como getters, setters e construtores.
 - **Apache Maven** - Gerenciador de dependências e build.
 
 ---
@@ -61,5 +60,12 @@ Certifique-se de ter instalado em sua máquina:
   **lista-exercicios (lista)**
   ![Lista de Exercícios](./src/main/java/br/com/academia/gestao/img/lista-exercicios.PNG)
 
+3. **Perguntas:**
+- Em nenhum lugar do seu projeto existe new ReceitaController(). Então quem criou esse objeto, e quando?
 
-   
+R: O Spring cria o objeto automaticamente durante a inicialização da aplicação.
+
+
+- Você não escreveu uma linha convertendo objeto em JSON. Como o Spring soube fazer isso sozinho? 
+
+R: O Spring Boot converte objetos para JSON automaticamente usando os HttpMessageConverters do Spring MVC e a biblioteca Jackson, incluída no spring-boot-starter-web. Assim, basta retornar um objeto Java que ele é serializado para JSON na resposta HTTP
