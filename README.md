@@ -52,13 +52,17 @@ Certifique-se de ter instalado em sua máquina:
 
 ---
 **boas-vindas (texto)**
-  ![Boas Vindas](./src/main/java/br/com/academia/gestao/img/boas-vindas.PNG)
+
+ ![Boas Vindas](./src/main/java/br/com/academia/gestao/img/boas-vindas.PNG)
 ---
 **exemplo (objeto)**
-  ![Exemplo Exercício](src/main/java/br/com/academia/gestao/img/exem.PNG)
+
+ ![Exemplo Exercício](src/main/java/br/com/academia/gestao/img/exem.PNG)
 ---
 **lista-exercicios (lista)**
-  ![Lista de Exercícios](./src/main/java/br/com/academia/gestao/img/lista-exercicios.PNG)
+
+ ![Lista de Exercícios](./src/main/java/br/com/academia/gestao/img/lista-exercicios.PNG)
+
 ---
 ###  5. **Perguntas do Desafio:**
 - Em nenhum lugar do seu projeto existe new ReceitaController(). Então quem criou esse objeto, e quando?
