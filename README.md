@@ -48,7 +48,7 @@ Certifique-se de ter instalado em sua máquina:
 - 📋 @GetMapping("/lista-exercicios"): lista - retorna uma lista com 4 exercícios cadastrados
 
 ---
-2. **Prints de Execução da API:**
+4. **Prints de Execução da API:**
 
   **boas-vindas (texto)**
   ![Boas Vindas](./src/main/java/br/com/academia/gestao/img/boas-vindas.PNG)
@@ -59,7 +59,7 @@ Certifique-se de ter instalado em sua máquina:
   **lista-exercicios (lista)**
   ![Lista de Exercícios](./src/main/java/br/com/academia/gestao/img/lista-exercicios.PNG)
 
-3. **Perguntas:**
+5. **Perguntas do Desafio:**
 - Em nenhum lugar do seu projeto existe new ReceitaController(). Então quem criou esse objeto, e quando?
 
 R: O Spring cria o objeto automaticamente durante a inicialização da aplicação.
