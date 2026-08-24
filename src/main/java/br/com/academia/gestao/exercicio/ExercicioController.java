@@ -10,7 +10,7 @@ import java.util.List;
 public class ExercicioController {
     @GetMapping("/boas-vindas")
     public String boasVindas(){
-        return "API de Exercícios da Rosane";
+        return "API Gestão de Exercícios de academia";
     }
 
     @GetMapping("/exemplo")

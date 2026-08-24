@@ -4,15 +4,7 @@
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-brightgreen.svg?style=for-the-badge&logo=springboot)](https://spring.io/projects/spring-boot)
 [![Maven](https://img.shields.io/badge/Maven-blue.svg?style=for-the-badge&logo=apachemaven)](https://maven.apache.org/)
 
-API REST de alta performance desenvolvida em **Java 21** e **Spring Boot** para gerenciamento, consulta e listagem de exercícios de academia.
-
----
-
-## ✨ Recursos da Aplicação
-
-- 💬 @GetMapping("/boas-vindas"): texto - retorna uma mensagem de boas vindas.
-- 🏋️ @GetMapping("/exemplo"): objeto. - retorna um exercício de exemplo (utilizando *Java Records*).
-- 📋 @GetMapping("/lista-exercicios"): lista - retorna uma lista com 4 exercícios cadastrados
+API REST desenvolvida em **Java 21** e **Spring Boot** para gerenciamento e listagem de exercícios de academia.
 
 ---
 
@@ -41,3 +33,32 @@ Certifique-se de ter instalado em sua máquina:
    ```bash
    git clone git@github.com:rosaneneckel/gestao-academia.git
    cd gestao-academia
+---
+2. **Configure o application.properties:**
+   src/main/resources/application.properties 
+
+   Nome da aplicação: spring.application.name=academia
+
+   Porta: server.port=8081
+---
+3. **Rotas:**
+
+- 💬 @GetMapping("/boas-vindas"): texto - retorna uma mensagem de boas vindas.
+- 🏋️ @GetMapping("/exemplo"): objeto. - retorna um exercício de exemplo (utilizando *Java Records*).
+- 📋 @GetMapping("/lista-exercicios"): lista - retorna uma lista com 4 exercícios cadastrados
+
+---
+2. **Prints de Execução da API:**
+
+  **boas-vindas**
+  ![Boas Vindas](./src/main/java/br/com/academia/gestao/img/boas-vindas.PNG)
+
+  **exemplo**
+
+  ![Exemplo Exercício](./src/main/java/br/com/academia/gestao/img/exemplo.PNG)
+
+  **lista-exercicios**
+  ![Lista de Exercícios](./src/main/java/br/com/academia/gestao/img/lista-exercicios.PNG)
+
+
+   
