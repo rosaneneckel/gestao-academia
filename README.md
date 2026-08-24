@@ -54,7 +54,6 @@ Certifique-se de ter instalado em sua máquina:
   ![Boas Vindas](./src/main/java/br/com/academia/gestao/img/boas-vindas.PNG)
 
   **exemplo (objeto)**
-
   ![Exemplo Exercício](src/main/java/br/com/academia/gestao/img/exem.PNG)
 
   **lista-exercicios (lista)**
