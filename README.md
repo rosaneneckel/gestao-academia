@@ -64,12 +64,13 @@ Certifique-se de ter instalado em sua máquina:
  ![Lista de Exercícios](./src/main/java/br/com/academia/gestao/img/lista-exercicios.PNG)
 
 ---
+
 ###  5. **Perguntas do Desafio:**
 - Em nenhum lugar do seu projeto existe new ReceitaController(). Então quem criou esse objeto, e quando?
 
-R: O Spring cria o objeto automaticamente durante a inicialização da aplicação.
+  R: O Spring cria o objeto automaticamente durante a inicialização da aplicação.
 
 
 - Você não escreveu uma linha convertendo objeto em JSON. Como o Spring soube fazer isso sozinho? 
 
-R: O Spring Boot converte objetos para JSON automaticamente usando os HttpMessageConverters do Spring MVC e a biblioteca Jackson, incluída no spring-boot-starter-web. Assim, basta retornar um objeto Java que ele é serializado para JSON na resposta HTTP
+  R: O Spring Boot converte objetos para JSON automaticamente usando os HttpMessageConverters do Spring MVC e a biblioteca Jackson, incluída no spring-boot-starter-web. Assim, basta retornar um objeto Java que ele é serializado para JSON na resposta HTTP
